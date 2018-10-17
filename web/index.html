@@ -80,9 +80,6 @@
       padding: 5px;
       width: 100%;
     }
-    .pdfViewer .page {
-      border-image: none;
-    }
   </style>
 </head>
 <body>
@@ -92,15 +89,16 @@
     <div class="spacer"></div>
 
     <button class="rectangle" type="button" title="Rectangle" data-tooltype="area">&nbsp;</button>
+
     <button class="highlight" type="button" title="Highlight" data-tooltype="highlight">&nbsp;</button>
     <button class="strikeout" type="button" title="Strikeout" data-tooltype="strikeout">&nbsp;</button>
 
     <div class="spacer"></div>
-
+    
     <button class="text" type="button" title="Text Tool" data-tooltype="text"></button>
     <select class="text-size"></select>
     <div class="text-color"></div>
-
+        
     <div class="spacer"></div>
 
     <button class="pen" type="button" title="Pen Tool" data-tooltype="draw">✎</button>
@@ -110,7 +108,7 @@
     <div class="spacer"></div>
 
     <button class="comment" type="button" title="Comment" data-tooltype="point">🗨</button>
-
+    
     <div class="spacer"></div>
 
     <select class="scale">
@@ -144,6 +142,8 @@
   </div>
   <script src="shared/pdf.js"></script>
   <script src="shared/pdf_viewer.js"></script>
-  <script src="index.js"></script>
+  <script src="__build__/index.js"></script>
 </body>
 </html>
+
+
